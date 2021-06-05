@@ -19,7 +19,7 @@
 body{
     background: var(--background);
     color: var(--text);
-    width: 300px;
+    width: 350px;
     height: 100%;
 }
 body, button, textarea, input{
@@ -85,8 +85,10 @@ body, button, textarea, input{
     border: 1px solid #2e384d;
     width: 100%;
 }
-.bordaContainerInfo ul{
+#relatorio ul li,
+.bordaContainerInfo ul li{
     text-decoration: none;
+    list-style: none;
 }
 .containerRelatorioInterno{
     display: flex;
@@ -94,28 +96,24 @@ body, button, textarea, input{
     align-items: center;
     justify-content: space-between;
 }
+.containerRelatorio{
+    font-size: 12px;
+}
 .bordaNumeroCvss{
-    padding: 7px;
+   padding-top: 10px;
     border: 3px solid #e83f5b;
     color: #e83f5b;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
-.bordaNumeroCvss p{
-    transform: translateX(-8px);
+.bordaNumeroCvss p {
+    align-items: center;
+    justify-content: center;
 }
 #nomeArquivoRelatorio{
     font-size: 14px;
 }
-#linkUrl,
-#va-cvss,
-#informacaoRelatorio{
-    font-size: 12px;
-}
-#va-cvss{
-    font-size: 11px;
-}
-#relatorio ul{
+#relatorio ul li{
     text-decoration: none;
 }
