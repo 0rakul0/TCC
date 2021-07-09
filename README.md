@@ -1,7 +1,9 @@
-## TCC
+# TCC
 trabalho de conclusão de curso
 
-<img src="https://i.ibb.co/FVWsr2F/Front-end-TCC.png" alt="Front-end TCC" border="0">
+<div align="center">
+<img src="https://i.ibb.co/FVWsr2F/Front-end-TCC.png" alt="Front-end TCC">
+</div>
 
 ## 📃 Sobre o projeto:
 Esse projeto foi desenvolvido para apresentação no meu TCC, porém com o objetivo de escalar para mais funções.
