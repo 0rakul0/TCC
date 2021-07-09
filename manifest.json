@@ -6,7 +6,7 @@
   "description": "plugin destinado a identificação de vulnerabilidades",
   "browser_action": {
     "default_title": "Vunln0rakul0",
-    "default_popup": "view/index.html"
+    "default_popup": "view/pentest.html"
   },
     "manifest_version": 2
 }

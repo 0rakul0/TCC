@@ -1,49 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-        <title>Vuln0rakul0 sql</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@400;500;600&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="styles/sql.css">
-    
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Vuln0rakul0 sql</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@400;500;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/sql.css">
+  </head>
 </head>
 <body>
-    <section>
-        <div class="geral-landing">
-            <div class="guia">
-                <h2>Passo a passo para uma primeira analise</h2>
-                <div>
-                  <br>Encontrando a vunerabilidade<hr>
-                    <div class="bloco"><p>Testar os inputs</p><input class="check" type="checkbox"> </div>
-                    <div class="bloco"> <p>Verificar codigo fonte da pag</p> <input class="check" type="checkbox"></div>
-                    <div class="bloco"> <p>verificar comandos do SQL</p><input class="check" type="checkbox"></div>
-                            <div class="textobloc">Comando  =&gt;  <p>user()</p></div>
-                            <div class="textobloc">Comando  =&gt;  <p>database()</p> </div>
-                            <div class="textobloc">Comando  =&gt;  <p>@@version</p> </div>
-                            <br>
-                            Como ver o Problema
-                            <hr>
-                    <div class="bloco"><p>Verificar a URL quando for pesquisar</p><input class="check" type="checkbox"></div>
-                    <div class="bloco"><p>testar aspas no fim da url</p><input class="check" type="checkbox"></div>
-                    <div class="bloco"><p>testar um script de alert</p><input class="check" type="checkbox"></div>
-                    <div class="bloco"><p>testar um XSS reflect</p><input class="check" type="checkbox"></div>
-                  </div> <br>
-                <hr>
-                <br>
-               <h2>Anotações</h2>
-                  <div>
-                   <textarea name="notas" class="notas" placeholder="Use essa area para anotar seu pentest..."> </textarea>
-                </div>
-               </div>
+  <section>
+    <div class="geral-landing">
+      <div class="guia">
+        <h2>Passo a passo para uma primeira analise</h2>
+        <div>
+          <br>Encontrando a vunerabilidade
+          <hr>
+          <div class="bloco">
+            <p>Testar os inputs</p><input class="check" type="checkbox">
+          </div>
+          <div class="bloco">
+            <p>Verificar codigo fonte da pag</p> <input class="check" type="checkbox">
+          </div>
+          <div class="bloco">
+            <p>verificar comandos do SQL</p><input class="check" type="checkbox">
+          </div>
+          <div class="textobloc">Comando =&gt; <p>user()</p>
+          </div>
+          <div class="textobloc">Comando =&gt; <p>database()</p>
+          </div>
+          <div class="textobloc">Comando =&gt; <p>@@version</p>
+          </div>
+          <br>
+          Como ver o Problema
+          <hr>
+          <div class="bloco">
+            <p>Verificar a URL quando for pesquisar</p><input class="check" type="checkbox">
+          </div>
+          <div class="bloco">
+            <p>testar aspas no fim da url</p><input class="check" type="checkbox">
+          </div>
+          <div class="bloco">
+            <p>testar um script de alert</p><input class="check" type="checkbox">
+          </div>
+          <div class="bloco">
+            <p>testar um XSS reflect</p><input class="check" type="checkbox">
+          </div>
+        </div> <br>
+        <hr>
+        <br>
+        <h2>Anotações</h2>
+        <div>
+          <textarea name="notas" class="notas" placeholder="Use essa area para anotar seu pentest..."> </textarea>
+        </div>
+      </div>
     </div>
-    </section>
+  </section>
 </body>
 </html>
