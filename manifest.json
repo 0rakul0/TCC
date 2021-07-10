@@ -1,12 +1,20 @@
 {
-  "short_name": "0rakul0",
-  "name": "vuln0rakul0",
-  "author": "Jefferson",
-  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "0rakul0",
+  "author": "Jefferson Silva dos Anjos",
+  "version": "0.0.1",
   "description": "plugin destinado a identificação de vulnerabilidades",
-  "browser_action": {
-    "default_title": "Vunln0rakul0",
-    "default_popup": "view/pentest.html"
-  },
-    "manifest_version": 2
+  "action":{
+    "default_icon":"assets/icon.png",
+    "default_popup": "view/index.html"
+},
+"permissions":[
+  "tabs",
+  "storage"
+],
+
+"host_permissions":[
+  "<all_urls>"
+]
+    
 }

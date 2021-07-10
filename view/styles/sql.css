@@ -38,7 +38,7 @@ body, button, textarea, input{
    .guia{
    
     height: 100%;
-    border: 1px solid #548;
+    border: 0;
     padding: 20px;
     border-radius: 20px;
    }
