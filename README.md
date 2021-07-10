@@ -1,13 +1,27 @@
 # TCC
 trabalho de conclusão de curso
 
+## Front-end
+- tela principal do plugin
+
 <div align="center">
-<img src="https://i.ibb.co/Jn6sF5j/index.png" alt="Front-end TCC">
-<img src="https://i.ibb.co/BKGYPg7/sql-Inject.png" alt="sql-Inject">
-<img src="https://i.ibb.co/FVWsr2F/Front-end-TCC.png" alt="Pentest">
-<img src="https://i.ibb.co/gJCNHVg/ffuf.png" alt="ffuf">
+<img src="https://i.ibb.co/Jn6sF5j/index.png" alt="Front-end TCC" style="width: 280px;">
 </div>
 
+- tela do SqlInject
+<div align="center">
+<img src="https://i.ibb.co/BKGYPg7/sql-Inject.png" alt="sql-Inject" style="width: 280px;">
+</div>
+
+- tela do escaner 
+<div align="center">
+<img src="https://i.ibb.co/FVWsr2F/Front-end-TCC.png" alt="Pentest" style="width: 280px;">
+</div>
+
+- tela do FFUF
+<div align="center">
+<img src="https://i.ibb.co/gJCNHVg/ffuf.png" alt="ffuf" style="width: 280px;">
+</div>
 ## 📃 Sobre o projeto:
 Esse projeto foi desenvolvido para apresentação no meu TCC, porém com o objetivo de escalar para mais funções.
 
