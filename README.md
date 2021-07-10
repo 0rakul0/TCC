@@ -3,22 +3,25 @@ trabalho de conclusão de curso
 
 ## Front-end
 - tela principal do plugin
-
+  - Eu precisava de um HUB que segurasse tudo, logo desenvolvi esse painel de acesso para as páginas dedicadas, eventualmente ela terá mais funções. 
 <div align="center">
 <img src="https://i.ibb.co/Jn6sF5j/index.png" alt="Front-end TCC" style="width: 280px;">
 </div>
 
 - tela do SqlInject
+  - Essa tela tem com objetivo dizer o passo a passo de como usar o sql-Inject
 <div align="center">
 <img src="https://i.ibb.co/BKGYPg7/sql-Inject.png" alt="sql-Inject" style="width: 280px;">
 </div>
 
 - tela do escaner 
+  - Essa tela foi a base do meu Tcc, tenho muito orgulho dela, bem ... ela é uma ferramenta a principio que vc cola a url e ela te retorna quais arquivos são mais buscados ~ vale lembrar que essa tela foi dedicada a wordpress.
 <div align="center">
 <img src="https://i.ibb.co/FVWsr2F/Front-end-TCC.png" alt="Pentest" style="width: 280px;">
 </div>
 
 - tela do FFUF
+  - Essa tela do FFUF, lhe entrega como você pode escrever em seu terminal do kali linux
 <div align="center">
 <img src="https://i.ibb.co/gJCNHVg/ffuf.png" alt="ffuf" style="width: 280px;">
 </div>
@@ -33,7 +36,7 @@ Esse projeto foi desenvolvido para apresentação no meu TCC, porém com o objet
 - Git e GitHub
 
 
-## 📲 Instalar o Favs:
+## 📲 Instalar o 0rakul0:
 - Com a pasta desse repositório (especialmente com o manifest.json), abra o Google Chrome, vá nos três pontos verticais no lado superior direito da barra do Chrome, "Mais Ferramentas", "Extensões"; 
 - Ative o Modo Desenvolvedor;
 - Clique em "Carregar sem compactação";
