@@ -9,8 +9,7 @@
     "default_popup": "view/index.html"
 },
 "permissions":[
-  "tabs",
-  "storage"
+  "tabs"
 ],
 
 "host_permissions":[

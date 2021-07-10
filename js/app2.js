@@ -1,20 +1,33 @@
-var btnAddUrln = document.getElementById("btnAddUrln");
-btnAddUrln.addEventListener("click", creatLinkFfuf);
+document.addEventListener("DOMContentLoaded", function () {
+    //URL capturada de maneira global
+    var titleCurrent = "";
+    var urlCurrent = "";
 
-var titleCurrent = "";
-var urlCurrent = "";
+    document.querySelector('#btnAddUrl').addEventListener('click', function () {
 
-window.onload = function(){
-    chrome.tabs.query({active: true, lastFocusWindow: true}, tabs =>{
-        titleCurrent = tabs[0].title;
-        urlCurrent = tabs[0].url;
-    }) 
-}
+      chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs =>{
+          titleCurrent = tabs[0].title;
+          urlCurrent = tabs[0].url;
+      })
 
-function creatLinkFfuf(){
-    var dicio = {
-        title: titleCurrent,
-        url: urlCurrent
-    }
-    var newJson = JSON.stringify(dicio);
-}
+        splitRrlCurrent = urlCurrent.split('/')[2] 
+
+        const scriptFFUF = "FFUF -c -w common.txt -u http://" + splitRrlCurrent +"/FUZZ"
+        const scriptFFUFs = "FFUF -c -w common.txt -u https://" + splitRrlCurrent +"/FUZZ"
+
+        document.getElementById("link").innerHTML = 
+        '<p> porta 80 </p>'+
+        '<div class="resultado">'+
+            '<span id="nome">'+titleCurrent +'</span>'+
+            '</div> <hr> <div>'+   
+            '<span id="link">'+ scriptFFUF +' </span>'+
+        '</div>'+
+        '<br><p> porta 443 </p>'+
+        '<div class="resultado">'+
+            '<span id="nome">'+titleCurrent +'</span>'+
+            '</div> <hr> <div>'+   
+            '<span id="link">'+ scriptFFUFs +' </span>'+
+        '</div>'
+
+      })
+})

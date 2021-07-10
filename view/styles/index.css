@@ -20,7 +20,7 @@ body{
     background: var(--background);
     color: var(--text);
     width: 280px;
-    height: 280px;
+    height: 180px;
     
 }
 body, button, textarea, input{
@@ -62,4 +62,17 @@ a{
     margin:10px;
     justify-content: space-between;
     align-items: center;
+}
+.bntContatos p{
+    margin-right: 25px;
+}
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+.icones img{
+    width: 22px;
+    height: 22px;
 }

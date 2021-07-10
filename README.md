@@ -2,7 +2,10 @@
 trabalho de conclusão de curso
 
 <div align="center">
-<img src="https://i.ibb.co/FVWsr2F/Front-end-TCC.png" alt="Front-end TCC">
+<img src="https://i.ibb.co/Jn6sF5j/index.png" alt="Front-end TCC">
+<img src="https://i.ibb.co/BKGYPg7/sql-Inject.png" alt="sql-Inject">
+<img src="https://i.ibb.co/FVWsr2F/Front-end-TCC.png" alt="Pentest">
+<img src="https://i.ibb.co/gJCNHVg/ffuf.png" alt="ffuf">
 </div>
 
 ## 📃 Sobre o projeto:
